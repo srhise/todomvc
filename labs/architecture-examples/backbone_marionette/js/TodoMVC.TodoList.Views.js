@@ -1,4 +1,4 @@
-/*global TodoMVC */
+r/*global TodoMVC */
 'use strict';
 
 TodoMVC.module('TodoList.Views', function (Views, App, Backbone, Marionette, $) {
@@ -81,7 +81,7 @@ TodoMVC.module('TodoList.Views', function (Views, App, Backbone, Marionette, $) 
 	// --------------
 	//
 	// Controls the rendering of the list of items, including the
-	// filtering of activs vs completed items for display.
+	// filtering of actives vs completed items for display.
 
 	Views.ListView = Backbone.Marionette.CompositeView.extend({
 		template: '#template-todoListCompositeView',
